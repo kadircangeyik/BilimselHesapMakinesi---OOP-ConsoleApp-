@@ -83,9 +83,7 @@ public class Main {
                     faktoriyel *= i;
                 }
                 System.out.println("Sonuc: " + faktoriyel);
-
                 break;
-
             case 8:
                 System.out.println("Mod alma işlemine Hoş Geldiniz! \nLütfen Mod almaK istediğiniz sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
@@ -93,14 +91,35 @@ public class Main {
                 sonuc = sayi1 % sayi2;
                 System.out.println("Sonuc: " + sonuc);
                 break;
-
-
-
             case 9:
-                System.out.println("Logaritma Alma İşlemi");
-                break;
+                    System.out.println("Logaritma hesaplama işlemine Hoş Geldiniz! \n1 -Doğal Logaritma\n2-İkili Logaritma\n3-Adi Logaritma");
+                    int logaritmaTürü = scanner.nextInt();
+                    switch (logaritmaTürü) {
+                        case 1:
+                            System.out.println("Doğal Logaritma Alma İşlemi");
+                            System.out.println("Lütfen logaritmasını almak istediğiniz sayıyı giriniz: ");
+                            sayi1 = scanner.nextDouble();
+                            System.out.println("Sonuc: " + Math.log(sayi1));
+                            break;
+                        case 2:
+                            System.out.println("İkili Logaritma Alma İşlemi");
+                            System.out.println("Lütfen logaritmasını almak istediğiniz sayıyı giriniz: ");
+                            sayi1 = scanner.nextDouble();
+                            System.out.println("Sonuc: " + Math.log10(sayi1));
+                            break;
+                        case 3:
+                            System.out.println("Adi Logaritma Alma İşlemi");
+                            System.out.println("Lütfen logaritmasını almak istediğiniz sayıyı giriniz: ");
+                            sayi1 = scanner.nextDouble();
+                            System.out.println("Lütfen logaritma tabanını giriniz: ");
+                            sayi2 = scanner.nextDouble();
+                            System.out.println("Sonuc: " + (Math.log(sayi1) / Math.log(sayi2)));
+                            break;
+                    }
             case 10:
-                System.out.println("Sinüs Alma İşlemi");
+                System.out.println("Sinüs hesaplama işlemine Hoş Geldiniz! \nLütfen Açı derecesini giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                System.out.println("Sonuc: " + Math.sin(sayi1));
                 break;
             case 11:
                 System.out.println("Cosinüs Alma İşlemi");
