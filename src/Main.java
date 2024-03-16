@@ -121,9 +121,13 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 System.out.println("Sonuc: " + Math.sin(sayi1));
                 break;
+
             case 11:
-                System.out.println("Cosinüs Alma İşlemi");
+                System.out.println("Cosinus Alma İşlemine Hoş Geldiniz! \nLütfen Cosinus Almak İstediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                System.out.println("Sonuc: " + Math.cos(Math.toRadians(sayi1)));
                 break;
+                
             case 12:
                 System.out.println("Tanjant Alma İşlemi");
                 break;
