@@ -145,9 +145,15 @@ public class Main {
                     System.out.println("Tanjant değeri sıfır olduğu için cotanjant hesaplanamaz.");
                 }
                 break;
+
             case 14:
-                System.out.println("Secant Alma İşlemi");
+                System.out.println("Secant alma işlemine hoş geldiniz! \nLütfen secant almak istediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                double cosinusdeğeri = Math.tan(Math.toRadians(sayi1));
+                double sekantdeğeri = 1 / cosinusdeğeri;
+                System.out.println("Sonuc: " + sekantdeğeri);
                 break;
+                
             case 15:
                 System.out.println("Tanjant alma İşlemine Hoş Geldiniz! \nLütfen açıyı derece cinsinden giriniz:");
                 sayi1 = scanner.nextDouble();
