@@ -34,7 +34,7 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 + sayi2;
-                System.out.println("Toplam: " + sonuc);
+                System.out.println("Sonuc: " + sonuc);
                 break;
 
             case 2:
@@ -42,7 +42,7 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 - sayi2;
-                System.out.println("Toplam: " + sonuc);
+                System.out.println("Sonuc: " + sonuc);
                 break;
 
             case 3:
@@ -50,7 +50,7 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 * sayi2;
-                System.out.println("Toplam: " + sonuc);
+                System.out.println("Sonuc: " + sonuc);
                 break;
 
             case 4:
@@ -58,15 +58,16 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 / sayi2;
-                System.out.println("Toplam: " + sonuc);
+                System.out.println("Sonuc: " + sonuc);
                 break;
                 
             case 5:
-                System.out.println("Üs Alma İşlemine Hoş Geldiniz! \n Lütfen Üs istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Üs Alma İşlemine Hoş Geldiniz! \n Lütfen Üs Almak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Taban sayıyı giriniz: ");
                 sayi1 = scanner.nextDouble();
-                sayi2 = scanner.nextDouble();
-                sonuc = sayi1 + sayi2;
-                System.out.println("Toplam: " + sonuc);
+                System.out.println("Üs sayıyı giriniz: ");
+                sayi2 = scanner.nextDouble(); // Taban sayi 2  Üs alınacak sayı 3
+                System.out.println("Sonuc: " + Math.pow(sayi1,sayi2));
                 break;
             case 6:
                 System.out.println("Karekök Alma İşlemi");
