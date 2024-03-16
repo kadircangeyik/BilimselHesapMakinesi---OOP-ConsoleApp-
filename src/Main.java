@@ -125,13 +125,16 @@ public class Main {
             case 11:
                 System.out.println("Cosinus Alma İşlemine Hoş Geldiniz! \nLütfen Cosinus Almak İstediğiniz sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
-                System.out.println("Sonuc: " + Math.cos(Math.toRadians(sayi1)));
+                System.out.println("Sonuc: " + Math.cos(sayi1));
                 break;
 
-                case 12:
-                System.out.println("Tanjant alma İşlemine Hoş Geldiniz! \nLütfen Tanjant almaK istediğiniz sayıyı giriniz: \n");
-                sayi1 = scanner.nextDouble();
-                System.out.println("Sonuc: " + Math.tan(Math.toRadians(sayi1)));
+           //CASE 12 HATALI
+            case 12:
+                System.out.println("Tanjant Alma İşlemine Hoş Geldiniz! \nLütfen Tanjant almak istediğiniz açıyı derece cinsinden giriniz: \n");
+                double derece = scanner.nextDouble();
+                double radyan = Math.toRadians(derece);
+                double tanjant = Math.tan(radyan);
+                System.out.println("Tanjant " + derece + " derecenin değeri: " + tanjant);
                 break;
             case 13:
                 System.out.println("Cotanjant alma İşlemine Hoş Geldiniz! \nLütfen açıyı derece cinsinden giriniz:\n");
