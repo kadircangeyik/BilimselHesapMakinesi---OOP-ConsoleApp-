@@ -46,7 +46,7 @@ public class Main {
                 break;
 
             case 3:
-                System.out.println("Çarpma İşlemine Hoş Geldiniz! \n Lütfen çarpmak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Çarpma İşlemine Hos Geldiniz! \n Lütfen çarpmak istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 * sayi2;
