@@ -62,7 +62,7 @@ public class Main {
                 break;
                 
             case 5:
-                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Üs Alma İşlemine Hoş Geldiniz! \n Lütfen Üs istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 + sayi2;
