@@ -127,10 +127,13 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 System.out.println("Sonuc: " + Math.cos(Math.toRadians(sayi1)));
                 break;
-                
-            case 12:
-                System.out.println("Tanjant Alma İşlemi");
+
+                case 12:
+                System.out.println("Tanjant alma İşlemine Hoş Geldiniz! \nLütfen Tanjant almaK istediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                System.out.println("Sonuc: " + Math.tan(Math.toRadians(sayi1)));
                 break;
+
             case 13:
                 System.out.println("Cotanjant Alma İşlemi");
                 break;
