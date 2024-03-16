@@ -41,23 +41,23 @@ public class Main {
                 System.out.println("Çıkarma İşlemine Hoş Geldiniz! \n Lütfen çıkarmak istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
-                sonuc = sayi1 + sayi2;
+                sonuc = sayi1 - sayi2;
                 System.out.println("Toplam: " + sonuc);
                 break;
 
             case 3:
-                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Çarpma İşlemine Hoş Geldiniz! \n Lütfen çarpmak istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
-                sonuc = sayi1 + sayi2;
+                sonuc = sayi1 * sayi2;
                 System.out.println("Toplam: " + sonuc);
                 break;
 
             case 4:
-                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Bölmee İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
-                sonuc = sayi1 + sayi2;
+                sonuc = sayi1 / sayi2;
                 System.out.println("Toplam: " + sonuc);
                 break;
                 
