@@ -28,24 +28,45 @@ public class Main {
         int islem = scanner.nextInt();
 
         switch (islem) {
+
             case 1:
-                   System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
-                     sayi1 = scanner.nextDouble();
-                     sayi2 = scanner.nextDouble();
-                     sonuc = sayi1 + sayi2;
-                     System.out.println("Toplam: " + sonuc);
+                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 + sayi2;
+                System.out.println("Toplam: " + sonuc);
                 break;
+
             case 2:
-                System.out.println("Çıkarma İşlemi");
+                System.out.println("Çıkarma İşlemine Hoş Geldiniz! \n Lütfen çıkarmak istediğiniz iki sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 + sayi2;
+                System.out.println("Toplam: " + sonuc);
                 break;
+
             case 3:
-                System.out.println("Çarpma İşlemi");
+                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 + sayi2;
+                System.out.println("Toplam: " + sonuc);
                 break;
+
             case 4:
-                System.out.println("Bölme İşlemi");
+                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 + sayi2;
+                System.out.println("Toplam: " + sonuc);
                 break;
+                
             case 5:
-                System.out.println("Üs Alma İşlemi");
+                System.out.println("Toplama İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 + sayi2;
+                System.out.println("Toplam: " + sonuc);
                 break;
             case 6:
                 System.out.println("Karekök Alma İşlemi");
