@@ -62,7 +62,7 @@ public class Main {
                 break;
                 
             case 5:
-                System.out.println("Üs Alma İşlemine Hoş Geldiniz! \n Lütfen Üs Almak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Üs Alma İşlemine Hoş Geldiniz! \n Lütfen üs almak istediğiniz iki sayıyı giriniz: \n");
                 System.out.println("Taban sayıyı giriniz: ");
                 sayi1 = scanner.nextDouble();
                 System.out.println("Üs sayıyı giriniz: ");
