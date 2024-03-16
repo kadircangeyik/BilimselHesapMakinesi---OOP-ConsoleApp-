@@ -133,15 +133,31 @@ public class Main {
                 sayi1 = scanner.nextDouble();
                 System.out.println("Sonuc: " + Math.tan(Math.toRadians(sayi1)));
                 break;
-
             case 13:
-                System.out.println("Cotanjant Alma İşlemi");
+                System.out.println("Cotanjant alma İşlemine Hoş Geldiniz! \nLütfen açıyı derece cinsinden giriniz:\n");
+                System.out.println("Lütfen açıyı derece cinsinden giriniz:");
+                sayi1 = scanner.nextDouble();
+                double tan = Math.tan(Math.toRadians(sayi1));
+                if (tan != 0) {
+                    double cotan = 1 / tan;
+                    System.out.println("Cotanjant " + sayi1 + " derecenin değeri: " + cotan);
+                } else {
+                    System.out.println("Tanjant değeri sıfır olduğu için cotanjant hesaplanamaz.");
+                }
                 break;
             case 14:
                 System.out.println("Secant Alma İşlemi");
                 break;
             case 15:
-                System.out.println("Cosecant Alma İşlemi");
+                System.out.println("Tanjant alma İşlemine Hoş Geldiniz! \nLütfen açıyı derece cinsinden giriniz:");
+                sayi1 = scanner.nextDouble();
+                double sin = Math.sin(Math.toRadians(sayi1));
+                if (sin != 0) {
+                    double cosecant = 1 / sin;
+                    System.out.println("Cosecant " + sayi1 + " derecenin değeri: " + cosecant);
+                } else {
+                    System.out.println("Sinüs değeri sıfır olduğu için cosecant hesaplanamaz.");
+                }
                 break;
             case 16:
                 System.out.println("Permütasyon Alma İşlemi");
