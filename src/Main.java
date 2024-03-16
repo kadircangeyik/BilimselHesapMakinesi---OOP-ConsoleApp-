@@ -70,14 +70,32 @@ public class Main {
                 System.out.println("Sonuc: " + Math.pow(sayi1,sayi2));
                 break;
             case 6:
-                System.out.println("Karekök Alma İşlemi");
+                System.out.println("Karakök alma İşlemine Hoş Geldiniz! \nLütfen Karakök almaK istediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                System.out.println("Sonuc: " + Math.sqrt(sayi1));
                 break;
             case 7:
-                System.out.println("Faktoriyel Alma İşlemi");
+                int faktoriyel=1;
+                System.out.println("Faktoriyel hesaplama işlemine Hoş Geldiniz! \n Lütfen faktoriyel hesaplamak istediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                for (int i=1; i<=sayi1; i++ )
+                {
+                    faktoriyel *= i;
+                }
+                System.out.println("Sonuc: " + faktoriyel);
+
                 break;
+
             case 8:
-                System.out.println("Mod Alma İşlemi");
+                System.out.println("Mod alma işlemine Hoş Geldiniz! \nLütfen Mod almaK istediğiniz sayıyı giriniz: \n");
+                sayi1 = scanner.nextDouble();
+                sayi2 = scanner.nextDouble();
+                sonuc = sayi1 % sayi2;
+                System.out.println("Sonuc: " + sonuc);
                 break;
+
+
+
             case 9:
                 System.out.println("Logaritma Alma İşlemi");
                 break;
