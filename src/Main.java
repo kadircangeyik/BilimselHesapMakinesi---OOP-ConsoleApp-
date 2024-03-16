@@ -54,7 +54,7 @@ public class Main {
                 break;
 
             case 4:
-                System.out.println("Bölmee İşlemine Hoş Geldiniz! \n Lütfen toplamak istediğiniz iki sayıyı giriniz: \n");
+                System.out.println("Bölme İşlemine Hoş Geldiniz! \n Lütfen bölmek istediğiniz iki sayıyı giriniz: \n");
                 sayi1 = scanner.nextDouble();
                 sayi2 = scanner.nextDouble();
                 sonuc = sayi1 / sayi2;
