@@ -1,63 +1,54 @@
-*Bilimsel Hesap Makinesi İçin Gerekli Formüller*
+# Bilimsel Hesap Makinesi Uygulaması
 
-1. **Toplama ve Çıkarma:**
-   - Toplama: `a + b`
-   - Çıkarma: `a - b`
+Bu Java uygulaması, temel aritmetik işlemleri, trigonometrik fonksiyonları, logaritmaları, faktöriyel hesaplamaları, mod alma işlemlerini ve daha fazlasını gerçekleştiren bir matematik kütüphanesini içerir.
 
-2. **Çarpma ve Bölme:**
-   - Çarpma: `a * b` veya `ab`
-   - Bölme: `a / b`
+## Nasıl Kullanılır
 
-3. **Parantezler:**
-   - Parantez içindeki işlemler: `(a + b) * c`
+`Main` sınıfındaki `main` metodu, kullanıcıdan bir işlem numarası alır ve bu işleme göre ilgili matematiksel işlemi gerçekleştirir. İşlemler aşağıdaki gibidir:
 
-4. **Üs Alma:**
-   - Üs alma: `a^b`
+1. Toplama
+2. Çıkarma
+3. Çarpma
+4. Bölme
+5. Üs alma
+6. Karekök alma
+7. Faktoriyel hesaplama
+8. Mod alma
+9. Logaritma alma
+10. Sinüs alma
+11. Cosinus alma
+12. Tanjant alma
+13. Cotanjant alma
+14. Sekant alma
+15. Kosekant alma
+16. Permütasyon alma
+17. Kombinasyon alma
+18. Çıkış
 
-5. **Karekök ve Diğer Kökler:**
-   - Karekök: `√a`
-   - Diğer kökler: `√[n]a`
+Örneğin, kullanıcı 1'i seçerse, toplama işlemi yapılır.
 
-6. **Trigonometrik Fonksiyonlar:**
-   - Sinüs: `sin(θ)`
-   - Kosinüs: `cos(θ)`
-   - Tanjant: `tan(θ)`
+## Giriş Gereksinimleri
 
-7. **Logaritma ve Doğal Logaritma:**
-   - Logaritma: `log_b(a)`
-   - Doğal Logaritma: `ln(a)`
+- Kullanıcı, işlem numarasını girerek bir işlem seçer.
+- Bazı işlemler için ekstra parametreler istenebilir, bu durumda kullanıcı yönergeleri takip etmelidir.
 
-8. **Faktöriyel Hesaplama:**
-   - Faktöriyel: `n!`
+## Çıktı
 
-9. **Mod ve Tamsayı Bölme:**
-   - Mod: `a % b`
-   - Tamsayı bölme: `a // b`
+- Her işlemin sonucu ekrana yazdırılır.
+- Hatalı girişler için uygun hata mesajları gösterilir.
 
-10. **Kutupsal Koordinatlara Dönüşüm:**
-    - Kutupsal koordinatlar: `(r, θ)`
+## Hata Yönetimi
 
-11. **Hiperbolik Fonksiyonlar:**
-    - Sinh: `sinh(x)`
-    - Cosh: `cosh(x)`
-    - Tanh: `tanh(x)`
+- Bölme işlemi için sıfıra bölme hatası kontrol edilir.
+- Negatif sayılar için karekök alma ve faktöriyel hesaplama işlemlerinde hata kontrolü yapılır.
+- Kullanıcı hatalı bir işlem numarası girdiğinde uygun bir hata mesajı gösterilir ve tekrar denemesi istenir.
 
-12. **Rastgele Sayı Üretme:**
-    - Rastgele sayı: `rand()`
+## Örnek Kod
 
-13. **Matris İşlemleri:**
-    - Matris çarpımı: `A * B`
-    - Matris tersi: `A^-1`
-    - Determinant: `det(A)`
-
-14. **Birim Dönüşümleri:**
-    - Birim dönüşümleri: `convert(a, from, to)`
-
-15. **Sayısal Türev ve İntegral Hesaplamaları:**
-    - Sayısal türev: `df/dx`
-    - Sayısal integral: `∫f(x) dx`
-
-16. **Olasılık ve İstatistik İşlemleri:**
-    - Ortalama: `mean(x)`
-    - Varyans: `var(x)`
-    - Standart sapma: `std(x)`
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Main sınıfı, matematiksel işlemleri gerçekleştirmek için Islemler sınıfını kullanır
+        Islemler.islemSec();
+    }
+}
