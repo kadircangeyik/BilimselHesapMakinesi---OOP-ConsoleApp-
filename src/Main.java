@@ -7,17 +7,21 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
         boolean devamEdilsinMi = false;
-        // Dosya okuma işlemi
-        String dosyaYolu = "strings.txt";
-        try (BufferedReader reader = new BufferedReader(new FileReader(dosyaYolu))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line); // Tüm satırları ekrana yaz
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        System.out.println("Bilimsel Hesap Makinesine Hoş Geldiniz! /n" +
+                "1- Toplama İşlemi\n" +
+                "2- Çıkarma İşlemi\n" +
+                "3- Çarpma İşlemi\n" +
+                "4- Bölme İşlemi\n" +
+                "5- Türev Hesaplama\n" +
+                "6- İntegral Hesaplama\n" +
+                "7- Fonksiyon Hesaplama\n" +
+                "8- Parabol Hesaplama\n" +
+                "9- Çıkış Yap\n" +
+                "\n" +
+                "Lütfen yapmak istediğiniz işlemi seçiniz: ");
 
         int islem = scanner.nextInt();
         // İşlem numarasına göre işlemi yap
@@ -27,20 +31,11 @@ public class Main {
                 case 2 -> islemler.cikarma();
                 case 3 -> islemler.carpma();
                 case 4 -> islemler.bolme();
-                case 5 -> islemler.usAlma();
-                case 6 -> islemler.karekokAlma();
-                case 7 -> islemler.faktoriyel();
-                case 8 -> islemler.modAlma();
-                case 9 -> islemler.logaritmaAlma();
-                case 10 -> islemler.sinAlma();
-                case 11 -> islemler.cosAlma();
-                case 12 -> islemler.tanAlma();
-                case 13 -> islemler.cotanAlma();
-                case 14 -> islemler.secantAlma();
-                case 15 -> islemler.cosecantAlma();
-                case 16 -> islemler.permutasyonAlma();
-                case 17 -> islemler.kombinasyonAlma();
-                case 18 -> {
+                case 5 -> islemler.turev();
+                case 6 -> islemler.integral();
+                case 7 -> islemler.fonksiyon();
+                case 8 -> islemler.parabol();
+                case 9 -> {
                     System.out.println("Çıkış Yapılıyor...");
                     return;
                 }
