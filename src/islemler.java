@@ -50,8 +50,22 @@ public class islemler {
 
     //Samet
     public static void turev() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("f(x)=c.x^n türevini alma programı ");
+        System.out.println("katsayi giriniz (c) = ");
+        int katsayi = input.nextInt();
+        if (katsayi == 0) {
+            System.out.println("f(x)=" + katsayi + "*x^n ise f(x)=0");
+            System.out.println("f'(x)=0");
+        } else {
+            System.out.println("us giriniz(n)=");
+            int us = input.nextInt();
+            System.out.println("f(x)=" + katsayi + "*x^" + us);
+            System.out.println("f'(x)=" + (katsayi * us) + "*x^" + (us - 1));
 
+        }
     }
+
 
     //Serhat
     public static void integral() {
