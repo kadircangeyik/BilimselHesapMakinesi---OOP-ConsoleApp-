@@ -29,23 +29,9 @@ Bu Java programı, basit bir bilimsel hesap makinesi uygulamasıdır. Kullanıc�
 - **Fonksiyon Hesaplama:** Verilen fonksiyon için belirli bir değeri hesaplar.
 - **Parabol Hesaplama:** Verilen veri seti için en uygun parabolü bulur.
 
-## Katkıda Bulunanlar
-
-- Program, aşağıdaki matematiksel işlemleri gerçekleştirebilir:
-  - Toplama
-  - Çıkarma
-  - Çarpma
-  - Bölme
-  - Türev Hesaplama
-  - İntegral Hesaplama
-  - Fonksiyon Hesaplama
-  - Parabol Hesaplama
-
 ## Geliştirme
 
 - Java programıdır, Java bilgisi gerektirir.
 - `Main.java` dosyasını çalıştırarak programı başlatabilirsiniz.
 - Yeni işlemler eklemek için `islemler` sınıfına yeni metotlar ekleyebilirsiniz.
 - Hatalar için lütfen bir "Issue" oluşturun veya düzeltmeler için "Pull Request" gönderin.
-
-Uygulama ile ilgili herhangi bir sorunuz veya geri bildiriminiz varsa lütfen iletişime geçmekten çekinmeyin. İyi hesaplamalar!
